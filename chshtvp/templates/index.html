@@ -1,0 +1,309 @@
+{% load staticfiles %}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link  href="{{STATIC_URL}}css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="{{STATIC_URL}}js/jquery.min1.9.0.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/TweenMax.min.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/swfobject.js"></script>
+    <script type="text/javascript">
+        //默认的视频缩略图 ，视频地址
+        var flashvars = {
+            videoUrl:"{{STATIC_URL}}video/01.f4v",
+            picUrl:"{{STATIC_URL}}video/01.jpg",
+            videoId:"1"
+        };
+
+        var params = {
+            wmode: "transparent",
+            allowFullScreen: "true"
+        };
+        swfobject.embedSWF("{{STATIC_URL}}swf/flvplayer.swf", "myFlashId", "508", "309", "10.2.0", "expressInstall.swf",flashvars,params);
+
+        function thisMovie(movieName) {
+            return window[movieName]||document[movieName];
+        }
+        function playVideo(picurl,videourl,videoId) {
+            //picurl视频缩略图 ，videourl视频地址
+            thisMovie("myFlashId").playVideo(picurl,videourl,videoId);
+        }
+
+    </script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/menu.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/index.js"></script>
+
+</head>
+<body>
+    <!--header-->
+    <div class="header mid">
+    <div class="searchBox">
+        <input class="searchBtn" type="button" value="go">
+        <div class="searchCon">
+            <div class="sIcon01"></div>
+            <input class="search" type="text" value="search">
+            <div class="sIcon02"></div>
+        </div>
+    </div>
+    <div class="menuBox">
+        <div class="logo">
+            <div class="hiddenTxt">强势传媒</div>
+        </div>
+        <div class="menu">
+            <ul class="menuCon">
+                <li class="on">
+                    <span class="mfont01"><a href="/">首 页</a></span>
+                    <span class="mfont02">Index</span>
+                </li>
+                <li>
+                    <span class="mfont01"><a href="/aboutus">关于我们</a></span>
+                    <span class="mfont02">About  us</span>
+                </li>
+                <li class="mBtn03">
+                    <span class="mfont01">强视作品</span>
+                    <span class="mfont02">Our works</span>
+                </li>
+                <li>
+                    <span class="mfont01">公司艺人</span>
+                    <span class="mfont02">Company artist</span>
+                </li>
+                <li>
+                    <span class="mfont01">游戏制作</span>
+                    <span class="mfont02">Game fabrication</span>
+                </li>
+
+                <li>
+                    <span class="mfont01">商务合作</span>
+                    <span class="mfont02">The business</span>
+                </li>
+                <li>
+                    <span class="mfont01">新媒体</span>
+                    <span class="mfont02">New media</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="menu2Con">
+        <div class="menuline"></div>
+        <div class="menu3">
+            <div class="mtop">
+                <span class="mbg02"><img class="mbg03" src="{% static "img/menu2_bg03.png" %}" alt=""></span>
+            </div>
+            <div class="menu3UiCon">
+                <ul class="table-cell">
+                    <li>电视剧</li>
+                    <li>电影</li>
+                    <li>微电影</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--header-->
+
+
+    <div class="kvBox mid">
+        <div class="kvCon">
+             <img class="mkv" src="{{STATIC_URL}}img/kv_01.jpg" alt="">
+             <img class="mkv" src="{{STATIC_URL}}img/kv_02.jpg" alt="">
+        </div>
+        <ul class="kvIcons">
+            <li class="on"></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <div class="qrCode">
+        <img src="{{STATIC_URL}}img/qrCode.png" alt="">
+    </div>
+
+    <div class="contentBox">
+        <div class="cbox01 mid">
+            <div class="ctvBox">
+                <img class="ctv_titile01" src="{{STATIC_URL}}img/ctv_titile01.jpg" alt="">
+                <div class="ctv">
+                    <div id="myFlashId">
+                        <!--<img src="{{STATIC_URL}}img/ctv_pic01.jpg" alt="">-->
+                    </div>
+                </div>
+            </div>
+            <div class="newsBox">
+                <div class="newsTitle fontWR">
+                    强视动态 CHS NEWS
+                </div>
+                <ul class="newsCon fontS">
+                    <li><a href="#" target="_blank"><span class="nIcon"></span><span class="nInfo"> 公司声明</span><span class="nTime">2015.01.12</span></a></li>
+                    <li><a href="#" target="_blank"><span class="nIcon"></span><span class="nInfo"> 嫁给爱情》江西卫视将播 被...</span><span class="nTime">2015.01.12</span></a></li>
+                    <li><a href="#" target="_blank"><span class="nIcon"></span><span class="nInfo"> 强视传媒携多部经典剧目亮相...</span><span class="nTime">2015.01.12</span></a></li>
+                    <li><a href="#" target="_blank"><span class="nIcon"></span><span class="nInfo"> 反映"湘西会战"英雄史的电视剧...</span><span class="nTime">2015.01.12</span></a></li>
+                    <li><a href="#" target="_blank"><span class="nIcon"></span><span class="nInfo">《最后一战》长沙开机 高云翔当...</span><span class="nTime">2015.01.12</span></a></li>
+                    <li><a href="#" target="_blank"><span class="nIcon"></span><span class="nInfo">《父母爱情》彭婧扮嫩与梅婷饰...</span><span class="nTime">2015.01.12</span></a></li>
+                    <li><a href="#" target="_blank"><span class="nIcon"></span><span class="nInfo">《舞乐传奇》即将播出 秋瓷炫本...</span><span class="nTime">2015.01.12</span></a></li>
+                    <li><a href="#" target="_blank"><span class="nIcon"></span><span class="nInfo">《嫁给爱情》江西卫视将播 被称...</span><span class="nTime">2015.01.12</span></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="cbox02 mid">
+            <div class="star">
+                <div class="starTitle fontWR">签约明星 SIGNING STAR</div>
+                <ul class="starCon">
+                    <li>
+                        <a class="starlink" href="#" target="_blank">
+                            <div class="sPicBox"><img src="{{STATIC_URL}}img/start_pic01.jpg" alt=""></div>
+                            <div class="sinfoBox">
+                                <div class="sUser">王鹏凯 Wang Pengkai</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="starlink" href="#" target="_blank">
+                            <div class="sPicBox"><img src="{{STATIC_URL}}img/start_pic02.jpg" alt=""></div>
+                            <div class="sinfoBox">
+                                <div class="sUser">李宜儒 Li Yiru </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="starlink" href="#" target="_blank">
+                            <div class="sPicBox"><img src="{{STATIC_URL}}img/start_pic03.jpg" alt=""></div>
+                            <div class="sinfoBox">
+                                <div class="sUser">黎源 Li Yuan</div>
+                             </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="starlink" href="#" target="_blank">
+                            <div class="sPicBox"><img src="{{STATIC_URL}}img/start_pic04.jpg" alt=""></div>
+                            <div class="sinfoBox">
+                                <div class="sUser">彭倩 Peng Qian</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="starPrevbtn"></div>
+                <div class="starNextbtn"></div>
+            </div>
+        </div>
+
+        <div class="cbox03 mid">
+            <div class="spro">
+                <div class="sproTitle fontWR">
+                    经典影视作品
+                </div>
+                <ul class="sproCon">
+                    <li class="on">
+                        <img class="spro_pic" src="{{STATIC_URL}}img/p1_pic01.jpg" width="363" height="178" alt="">
+                        <div class="spro_info">
+                            <span class="spro_Icon"></span>
+                            <span class="spro_txt fontWR">最后一战</span>
+                            <span class="spro_txt02 fontWR">The last battle</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="spro_pic" src="{{STATIC_URL}}img/p1_pic01.jpg" width="363" height="178" alt="">
+                        <div class="spro_info">
+                            <span class="spro_Icon"></span>
+                            <span class="spro_txt fontWR">最后一战</span>
+                            <span class="spro_txt02 fontWR">The last battle</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="spro_pic" src="{{STATIC_URL}}img/p1_pic01.jpg" width="363" height="178" alt="">
+                        <div class="spro_info">
+                            <span class="spro_Icon"></span>
+                            <span class="spro_txt fontWR">最后一战</span>
+                            <span class="spro_txt02 fontWR">The last battle</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="spro_pic" src="{{STATIC_URL}}img/p1_pic01.jpg" width="363" height="178" alt="">
+                        <div class="spro_info">
+                            <span class="spro_Icon"></span>
+                            <span class="spro_txt fontWR">最后一战</span>
+                            <span class="spro_txt02 fontWR">The last battle</span>
+                        </div>
+                    </li>
+                </ul>
+                <div class="p3_pageBox">
+                    <div class="table-cell textalignCenter">
+                        <div class="p3_pageHolder">
+
+                            <span class="p3_prevBtn"></span>
+                            <ul class="p3_pageCon">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            <span class="p3_nextBtn"></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+    
+    <div class="gotoTopBtn">
+        <img src="{{STATIC_URL}}img/gotoTopBtn.png" alt="">
+    </div>
+    <div class="footer">
+
+        <div class="footerBox mid fontS">
+            <div class="linkBox">
+                <dl>
+                    <dt>网站导航</dt>
+                    <dd>关于我们  ABOUT US</dd>
+                    <dd>网站地图  MAPS</dd>
+                    <dd>版权声明  COPYRIGHT</dd>
+                    <dd>联系我们  CONTACT US</dd>
+                </dl>
+
+                <dl>
+                    <dt>合作伙伴</dt>
+                    <dd>中视协演员工作委员会</dd>
+                </dl>
+
+                <dl>
+                    <dt>联系我们</dt>
+                    <dd>地址：北京市朝阳区八里庄东里1号（莱锦TOWN）Cn18单元</dd>
+                    <dd>邮政编码：100025</dd>
+                    <dd>电话：010—65503126</dd>
+                    <dd>传真：010—65503156</dd>
+                    <dd>广告商务：020-38486329</dd>
+                    <dd>联 系 人：Tinna</dd>
+                </dl>
+            </div>
+
+            <div class="copyrightBox">
+                <ul>
+                    <li><a href="#" target="_blank">关于强视 </a></li>
+                    <li>|</li>
+                    <li><a href="#" target="_blank">免责条款 </a></li>
+                    <li>|</li>
+                    <li><a href="#" target="_blank">招聘牛人</a></li>
+                    <li>|</li>
+                    <li><a href="#" target="_blank">合作伙伴</a></li>
+                    <li>|</li>
+                    <li><a href="#" target="_blank">友情链接</a></li>
+                </ul>
+                <div class="copyright">
+                    Copyright©2009-2012 广东强视影业传媒有限公司 All Rights Reserved 强视传媒版权所有   京公网安备11010102000458号   京ICP备09113788号
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>

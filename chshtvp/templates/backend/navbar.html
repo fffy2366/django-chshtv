@@ -1,0 +1,24 @@
+{% load tags %}
+<div class="navbar">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <ul class="nav pull-right">
+                    
+                    <li id="fat-menu" class="dropdown">
+                        <a href="#" id="drop3" role="button" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon-user"></i> <?php echo $user?>
+                            <i class="icon-caret-down"></i>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="javascript:;">{%settings_value "SITE_NAME"%}</a></li>
+                            <li class="divider"></li>
+                            <li><a tabindex="-1" href="/admin/logout">退出</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+                <a class="brand" href="index.php"><span class="first">{% settings_value "SITE_NAME" %}</span> <span class="second">管理系统</span></a>
+            </div>
+        </div>
+    </div>
