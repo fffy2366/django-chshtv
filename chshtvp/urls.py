@@ -13,7 +13,7 @@ urlpatterns = patterns('',
 
     #url(r'^admin/', include(admin.site.urls)),
     #backend
-    url(r'^backend/', include('cms.urls')),
+    url(r'^backstage/', include('cms.urls')),
     #home
     url(r'^$', 'cms.views.index', name='index'),
     url(r'^aboutus$', 'cms.views.aboutus', name='aboutus'),

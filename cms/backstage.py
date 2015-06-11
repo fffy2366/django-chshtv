@@ -11,7 +11,7 @@ import json
     #return HttpResponse("Hello, world. You're at the poll index.")    
 def index(request):  
 # View code here...  
-    t = loader.get_template('backend/index.html')  
+    t = loader.get_template('backstage/index.html')  
     c = RequestContext(request, {'foo': 'bar'})  
     #return HttpResponse(t.render(c), content_type="application/xhtml+xml")
     return HttpResponse(t.render(c))
@@ -25,7 +25,7 @@ def login(request):
         cimageurl= captcha_image_url(csn)
         return HttpResponse(cimageurl)
 
-    t = loader.get_template('backend/login.html')  
+    t = loader.get_template('backstage/login.html')  
     c = RequestContext(request, {'foo': 'bar'})
 
     if request.POST:
@@ -50,6 +50,6 @@ def login(request):
 
         #return HttpResponse(t.render(c))
         #return render_to_response('backend/login.html',locals())
-        return render_to_response('backend/login.html',
+        return render_to_response('backstage/login.html',
             locals(),
             context_instance=RequestContext(request, processors=[]))

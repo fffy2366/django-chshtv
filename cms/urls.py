@@ -8,8 +8,8 @@ from cms.forms import CommentCreateView
 
 urlpatterns = patterns('',
     #backend
-    url(r'^$', 'cms.backend.index', name='index'),
-    url(r'^login$', 'cms.backend.login', name='login'),
+    url(r'^$', 'cms.backstage.index', name='index'),
+    url(r'^login$', 'cms.backstage.login', name='login'),
     url(r'^loginact$', AjaxExampleForm.as_view(), name='ajax_example_form'),
     url(r'^comment_create$', CommentCreateView.as_view()),
 ) + static(settings.STATIC_URL)

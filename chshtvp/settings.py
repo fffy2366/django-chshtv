@@ -91,7 +91,7 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(os.path.dirname(PROJECT_ROOT),'static')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    ("backend",os.path.join(STATIC_ROOT,'backend')),
+    ("backstage",os.path.join(STATIC_ROOT,'backstage')),
     ("css",os.path.join(STATIC_ROOT,'css')),
     ("js",os.path.join(STATIC_ROOT,'js')),
     ("img",os.path.join(STATIC_ROOT,'img')),
