@@ -7,8 +7,12 @@ from form import CaptchaTestForm
 from captcha.models import CaptchaStore
 from captcha.helpers import captcha_image_url
 import json
+
+from django.contrib.auth.decorators import login_required
+
 # Create your views here.
     #return HttpResponse("Hello, world. You're at the poll index.")    
+@login_required
 def index(request):  
 # View code here...  
     t = loader.get_template('backstage/index.html')  

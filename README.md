@@ -35,17 +35,19 @@ DATABASES = {
 
 4.在demoproject下输入：python manage.py dbshell，如果能正常进入mysql命令行，则说明连接成功
 5.启动应用
-    1. 同步数据库：执行python manage.py syncdb，第一次启动需要创建superuser，用来管理django后台
-	```
-	You have installed Django's auth system, and don't have any superusers defined.
-	Would you like to create one now? (yes/no): yes
-	Username (leave blak to use 'gouxulei'): frank
-	Email address: fengxuting@gmail.com
-	Password: 2****8
-	Password (again):
-	Superuser created successfully.
-	```
-	2. 启动服务：python manage.py runserver
+
+- 同步数据库：执行python manage.pysyncdb，第一次启动需要创建superuser，用来管理django后台
+    ```
+    You have installed Django's auth system, and don't have any superusers defined.
+    Would you like to create one now? (yes/no): yes
+    Username (leave blak to use 'gouxulei'): frank
+    Email address: fengxuting@gmail.com
+    Password: 2****8
+    Password (again):
+    Superuser created successfully.
+    ```
+    
+- 启动服务：python manage.py runserver
 
 ##template
 1.
