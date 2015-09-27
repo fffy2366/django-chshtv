@@ -18,4 +18,5 @@ urlpatterns = patterns('',
     url(r'^$', 'cms.views.index', name='index'),
     url(r'^aboutus$', 'cms.views.aboutus', name='aboutus'),
     url(r'^captcha/', include('captcha.urls')),
+    (r'^accounts/login/$', 'django.contrib.auth.views.login',{'template_name': 'backstage/login.html'}),
 ) + static(settings.STATIC_URL)

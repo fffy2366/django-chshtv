@@ -1,3 +1,4 @@
+#-*-coding:utf-8-*-
 from django import forms
 from captcha.fields import CaptchaField
 
@@ -11,6 +12,14 @@ from django.http import HttpResponse
 import json
 
 from cms.models import Admin
+
+from django.conf import settings
+from django.contrib import auth
+from django.http import Http404, HttpResponse, HttpResponseRedirect
+#from django.utils import simplejson
+from django.views.decorators.csrf import csrf_exempt, csrf_protect
+from django.views.decorators.cache import never_cache
+from django.views.decorators.http import require_POST
 
 
 class CaptchaTestForm(forms.Form):
@@ -40,10 +49,32 @@ class AjaxExampleForm(AjaxFormResponseMixin,CreateView):
         #form.save()
         if self.request.is_ajax():
             to_json_response = dict()
-            to_json_response['status'] = 1
 
             to_json_response['new_cptch_key'] = CaptchaStore.generate_key()
             to_json_response['new_cptch_image'] = captcha_image_url(to_json_response['new_cptch_key'])
+
+            #[验证用户名密码](http://www.cnblogs.com/linjiqin/p/3638501.html)
+            username = self.request.POST['username']
+            password = self.request.POST['password']
+            if username=="" or username.isspace():
+                to_json_response['status'] = 0
+                to_json_response['data'] = "用户名不能为空"
+            if password=="" or password.isspace():
+                to_json_response['status'] = 0
+                to_json_response['data'] = "密码不能为空"
+
+            user = auth.authenticate(username=username, password=password)
+            if user is not None:
+                if user.is_active:
+                    auth.login(self.request, user)
+                    to_json_response['status'] = 1
+                    to_json_response['data'] = "OK"
+                else:
+                    to_json_response['status'] = 0
+                    to_json_response['data'] = "["+username+"]已被暂时禁用"
+            else:
+                to_json_response['status'] = 0
+                to_json_response['data'] = "用户名或密码不正确，请重试"
 
             return HttpResponse(json.dumps(to_json_response), content_type='application/json')
 

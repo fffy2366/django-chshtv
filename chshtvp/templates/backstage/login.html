@@ -177,7 +177,11 @@
                 //var ret = $.parseJSON(data) ;
                 //console.log(ret.status) ;
                 if(data.status==0){
-                    tips("","验证码错误",3000) ;  
+                    if(!!data.data){
+                        tips("",data.data,3000) ;  
+                    }else{
+                        tips("","验证码错误",3000) ;
+                    }
                 }else if(data.status==1){
                     window.location.href="/backstage/" ;
                 }

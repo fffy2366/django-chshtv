@@ -113,3 +113,5 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 SITE_NAME = 'CMS'
+
+LOGIN_URL = '/backstage/login'
