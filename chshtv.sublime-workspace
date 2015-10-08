@@ -4,32 +4,20 @@
 		"selected_items":
 		[
 			[
-				"a",
-				"ajax_login_form〔module〕"
+				"url",
+				"urlpatterns〔variable〕"
 			],
 			[
-				"pr",
-				"prev〔function〕"
+				"T",
+				"True"
 			],
 			[
-				"cm",
-				"cms"
+				"chs",
+				"chshtv2015"
 			],
 			[
-				"ST",
-				"STATIC_ROOT〔variable〕"
-			],
-			[
-				"rend",
-				"render_to_response"
-			],
-			[
-				"ur",
-				"urls"
-			],
-			[
-				"qu",
-				"question_text"
+				"chi",
+				"child_p〔variable〕"
 			],
 			[
 				"rout",
@@ -64,34 +52,18 @@
 	"buffers":
 	[
 		{
-			"file": "cms/backend.py",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 2031,
+				"buffer_size": 3544,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "chshtvp/templates/backend/login.html",
+			"file": "static/js/binary.js",
 			"settings":
 			{
-				"buffer_size": 8410,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "cms/urls.py",
-			"settings":
-			{
-				"buffer_size": 433,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "cms/forms.py",
-			"settings":
-			{
-				"buffer_size": 1433,
+				"buffer_size": 573,
 				"line_ending": "Unix"
 			}
 		}
@@ -99,9 +71,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 87.0,
+		"height": 294.0,
 		"selected_items":
 		[
+			[
+				":",
+				"Git: Commit"
+			],
+			[
+				":num",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -115,7 +95,7 @@
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 177.0
 	},
 	"distraction_free":
 	{
@@ -128,45 +108,62 @@
 	},
 	"file_history":
 	[
-		"/Users/gouxulei/Freelance/chshtvp/cms/ajax_login_form.py",
-		"/Users/gouxulei/Freelance/chshtvp/chshtvp/templates/backend/index.html",
-		"/Users/gouxulei/Freelance/chshtvp/chshtvp/settings.py",
-		"/Users/gouxulei/Freelance/chshtvp/cms/templatetags/test_filter.py",
-		"/Users/gouxulei/Freelance/chshtvp/cms/templatetags/test_tags.py",
-		"/Users/gouxulei/Freelance/chshtvp/cms/templatetags/tags.py",
-		"/Users/gouxulei/Freelance/chshtvp/chshtvp/templates/backend/navbar.html",
-		"/Users/gouxulei/Freelance/chshtvp/chshtvp/templates/backend/footer.html",
-		"/Users/gouxulei/Freelance/chshtvp/chshtvp/templates/backend/login.html",
-		"/Users/gouxulei/Freelance/chshtvp/README.md",
-		"/Users/gouxulei/Freelance/chshtvp/cms/form.py",
-		"/Users/gouxulei/Freelance/chshtvp/chshtvp/urls.py",
-		"/Users/gouxulei/Freelance/chshtvp/chshtvp/templates/backend/slidebar-nav.html",
-		"/Users/gouxulei/Freelance/chshtvp/chshtvp/__init__.py",
-		"/Users/gouxulei/Freelance/chshtvp/chshtvp/templatetags/test_filter.py",
-		"/Users/gouxulei/Freelance/chshtvp/chshtvp/templatetags/test_tags.py",
-		"/Users/gouxulei/Freelance/chshtvp/chshtvp/templatetags/__init__.py",
-		"/Users/gouxulei/Freelance/chshtvp/chshtvp/templates/index.html",
-		"/Users/gouxulei/Freelance/chshtvp/cms/views.py",
-		"/Users/gouxulei/Freelance/chshtvp/cms/backend_admin.py",
-		"/Users/gouxulei/Freelance/chshtvp/chshtvp/templates/about.html",
-		"/Users/gouxulei/Freelance/chshtvp/cms/urls.py",
-		"/Users/gouxulei/Freelance/chshtvp/cms/backend.py",
-		"/Users/gouxulei/Freelance/chshtvp/static/README.md",
-		"/Users/gouxulei/Freelance/chshtvp/static/video/01.jpg",
-		"/Users/gouxulei/Freelance/chshtvp/static/flvplayer.swf",
-		"/Users/gouxulei/demoproject/script/mail_pop.py",
-		"/Users/gouxulei/demoproject/README.md",
-		"/Users/gouxulei/demoproject/demoproject/settings.py",
-		"/Users/gouxulei/demoproject/demoproject/urls.py",
-		"/Users/gouxulei/demoproject/demoapp/urls.py",
-		"/Users/gouxulei/demoproject/demoapp/views.py",
-		"/Users/gouxulei/demoproject/polls/models.py",
-		"/Users/gouxulei/demoproject/polls/admin.py",
-		"/Users/gouxulei/demoproject/script/email_send.py",
-		"/Users/gouxulei/demoproject/email_send.py",
-		"/Users/gouxulei/百度云同步盘/Freelance/musiconline/server2.md",
-		"/Users/gouxulei/demoproject/polls/migrations/0001_initial.py",
-		"/Users/gouxulei/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/gouxulei/Freelance/chshtv_python/manage.py",
+		"/Users/gouxulei/Freelance/chshtv_python/cms/models.py",
+		"/Users/gouxulei/Freelance/chshtv_python/chshtvp/urls.py",
+		"/Users/gouxulei/Freelance/chshtv_python/cms/models2.py",
+		"/Users/gouxulei/Freelance/chshtv_python/cms/migrations/0001_initial.py",
+		"/Users/gouxulei/shell/deploy/linode-deploy.md",
+		"/Users/gouxulei/Desktop/same.txt",
+		"/Users/gouxulei/shell/deploy/aliyun-naifenyun-deploy.txt",
+		"/Users/gouxulei/shell/nginx/https.www.liangcuntu.com.conf",
+		"/Users/gouxulei/shell/deploy/idea-music.cn-211.151.134.40-deploy.md",
+		"/Users/gouxulei/Downloads/weixin/jssdk.php",
+		"/Users/gouxulei/Desktop/wx_share.js",
+		"/Users/gouxulei/Desktop/test.html",
+		"/Users/gouxulei/shell/distribution.md",
+		"/Users/gouxulei/shell/MHA.txt",
+		"/Users/gouxulei/shell/linux-批量替换文件内容.txt",
+		"/Users/gouxulei/shell/README.md",
+		"/Users/gouxulei/shell/backup.sh",
+		"/Users/gouxulei/shell/deploy/yinyuezhishi-116.213.144.93-deploy.md",
+		"/Users/gouxulei/shell/deploy/aliyun-chshtv.com-deploy.md",
+		"/Users/gouxulei/shell/install.md",
+		"/Users/gouxulei/shell/deploy/musiconline1-117.121.24.90-deploy.md",
+		"/Users/gouxulei/shell/deploy/musiconline-deploy.txt",
+		"/Users/gouxulei/shell/deploy/musiconline1-117.121.24.90-deploy.txt",
+		"/Users/gouxulei/shell/linode-251.md",
+		"/Users/gouxulei/shell/shell/naifenyun_backup.sh",
+		"/Users/gouxulei/shell/shell/exam_backup.sh",
+		"/Users/gouxulei/workspace/6wan_UI/js/travel.js",
+		"/Users/gouxulei/workspace/6wan_UI/js/travel_detail.js",
+		"/Users/gouxulei/workspace/6wan_UI/travel-trip.html",
+		"/Users/gouxulei/workspace/6wan_UI/travel-trip2.html",
+		"/Users/gouxulei/workspace/liuwan/frontend/views/trip/detail.php",
+		"/Users/gouxulei/workspace/6wan_UI/convenient2.html",
+		"/Users/gouxulei/workspace/6wan_UI/single-trip2.html",
+		"/Users/gouxulei/workspace/6wan_UI/js/common.js",
+		"/Users/gouxulei/workspace/6wan_UI/index.html",
+		"/Users/gouxulei/workspace/6wan_UI/building.html",
+		"/Users/gouxulei/Freelance/naifenyun_weixin_settings",
+		"/Users/gouxulei/Desktop/issue.md",
+		"/Users/gouxulei/Desktop/install.md",
+		"/Users/gouxulei/workspace/liuwan/frontend/runtime/logs/app.log",
+		"/Users/gouxulei/workspace/6wan_UI/js/jquery.ba-hashchange.min.js",
+		"/Users/gouxulei/workspace/liuwan/composer.json",
+		"/Users/gouxulei/workspace/liuwan/frontend/web/test.log",
+		"/Users/gouxulei/workspace/6wan_UI/js/travel2.js",
+		"/Users/gouxulei/workspace/spider/liuwan.log",
+		"/Users/gouxulei/workspace/6wan_UI/travel-star5-photography.html",
+		"/Users/gouxulei/workspace/6wan_UI/owner7-1.html",
+		"/Users/gouxulei/workspace/6wan_UI/css/index.css",
+		"/Users/gouxulei/workspace/6wan_UI/travel-trip2-detail.html",
+		"/Users/gouxulei/workspace/6wan_UI/css/travel.css",
+		"/Users/gouxulei/workspace/6wan_UI/sitemap.html",
+		"/Users/gouxulei/workspace/liuwan/vendor/yiisoft/yii2/rest/UrlRule.php",
+		"/Users/gouxulei/workspace/liuwan/vendor/yiisoft/yii2/web/UrlRule.php",
+		"/Users/gouxulei/workspace/6wan_UI/travel-star.html",
+		"/Users/gouxulei/workspace/6wan_UI/single-trip3.html",
 		"/Users/gouxulei/workspace/liuwan-media/controllers/ClientController.php",
 		"/Users/gouxulei/workspace/liuwan/common/config/main.php",
 		"/Users/gouxulei/workspace/liuwan/backend/controllers/ClientController.php",
@@ -215,14 +212,13 @@
 		"/Users/gouxulei/workspace/liuwan/vendor/yiisoft/yii2/base/InlineAction.php",
 		"/Users/gouxulei/workspace/liuwan/frontend/config/main.php",
 		"/Users/gouxulei/workspace/liuwan/backend/controllers/LoginController.php",
-		"/Users/gouxulei/workspace/liuwan/frontend/runtime/logs/app.log",
 		"/Users/gouxulei/workspace/liuwan/vendor/yiisoft/yii2/web/Controller.php",
 		"/Users/gouxulei/workspace/liuwan/backend/runtime/logs/app.log",
 		"/Users/gouxulei/workspace/liuwan-media/runtime/logs/app.log",
 		"/Users/gouxulei/workspace/liuwan.20130317/vendor/yiisoft/yii2/filters/AccessControl.php",
 		"/Users/gouxulei/workspace/liuwan/backend/models/LoginForm.php",
 		"/Users/gouxulei/workspace/liuwan/console/config/params-local.php",
-		"/Users/gouxulei/workspace/6wan_UI/js/common.js",
+		"/Users/gouxulei/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/gouxulei/Library/Application Support/Sublime Text 2/Packages/User/Node.sublime-build",
 		"/Users/gouxulei/Freelance/wash/action.php",
 		"/Users/gouxulei/workspace/liuwan/test.php",
@@ -231,13 +227,16 @@
 	],
 	"find":
 	{
-		"height": 54.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 0.0,
 		"where_history":
 		[
+			"/Users/gouxulei/workspace/6wan_UI/js",
+			"/Users/gouxulei/workspace/6wan_UI/css",
+			"/Users/gouxulei/workspace/6wan_UI",
 			"/Users/gouxulei/workspace/6wan_UI/js",
 			"/Users/gouxulei/workspace/6wan_UI",
 			"/Users/gouxulei/workspace/liuwan-media",
@@ -251,28 +250,88 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"form_class",
-			"'),\n",
-			"imgcode",
-			"loginBtn",
-			"login()",
-			"loginBtn",
+			"libvpx",
+			"dl-ssl.google.com",
+			"mysql",
+			"dl.google.com",
+			"android",
+			"mysql",
+			"ssl",
+			"https",
+			"ssl",
+			"iptables",
+			"iptab",
+			"防火墙",
+			"80",
+			"mysql ",
+			"mingyuan",
+			"时区",
+			"pm2",
+			"node",
+			"======================================================================================================================================================\n",
+			"ftp",
+			"node",
+			"git",
+			"ss-panel",
+			"mysql",
+			"redis",
+			"mongo",
+			"ip:",
+			"vsftp",
+			"购买",
+			"s_city",
+			"s_ci't'y",
+			"s_icon_tit",
+			"all_keywords",
+			"collect",
+			"co",
+			"wx_",
+			"allSearchBtn",
+			"()) ",
+			"s_city",
+			"php",
+			"admin",
+			"trace",
+			"error",
+			"123",
+			"1234",
+			"divuldaytravel",
+			"dtn",
+			"dnt",
+			"d'n't",
+			"divuldaytravel2",
+			"dtn",
+			"<div class=\"s_travel\">\n        <p class=\"t-lh20\"><span class=\"t-tra-t\">台湾十日悠闲行程</span><em><span class=\"s_view\">1821</span><span class=\"s_collect\">1338</span><span class=\"s_review\">1236</span></em></p>\n        <div class=\"t-tra-con\">\n          <img class=\"t-tra-tu\" src=\"upload/xingcheng/t-twxa-003.jpg\" alt=\"\">\n          <div class=\"t-con-right\">\n            <p class=\"t-text1\">行程亮点：<span>吃饱喝足舒服的躺在民宿里，精神世界和物质世界放佛都得到巨大满足的幸福感扑面而来。</span></p>\n            <p class=\"t-text1\">途径城市：<span>高雄 - 台东 - 花莲 - 台北</span></p>\n            <p class=\"t-text1\">行程天数：<span>10日</span></p>\n            <div class=\"t-text2\">¥9800/人起</div>\n            <div class=\"t-text3\"><span><em>¥6300</em>/人起</span><a href=\"travel-trip2.html\">查看详情</a></div>\n          </div>\n        </div>\n        <div class=\"divuldaytravelout clearfix\">\n          <div class=\"divuldaytravel\">\n            <ul class=\"s_uldaytravel\">\n              <li><span class=\"tit\">Day1</span>\n                <div><span>桃园机场</span><span>85大楼</span><span>梦时代</span><span>瑞丰夜市</span></div>\n              </li>\n              <li><span class=\"tit\">Day2</span>\n                <div><span>美丽岛捷运站</span><span>旗津岛</span><span>西子湾</span><span>打狗领事馆</span></div>\n              </li>\n              <li><span class=\"tit\">Day3</span>\n                <div><span>垦丁大街</span><span>帆船石</span><span>鹅銮鼻公园</span><span>龙磐公园</span></div>\n              </li>\n              <li><span class=\"tit\">Day4</span>\n                <div><span>恒春古镇</span><span>国立海洋生物馆</span><span>白沙湾</span><span>后壁湖</span></div>\n              </li>\n              <li><span class=\"tit\">Day5</span>\n                <div><span>自强夜市</span></div>\n              </li>\n              <li><span class=\"tit\">Day6</span>\n                <div><span>清水断崖</span><span>太鲁阁</span><span>七星潭</span><span>花莲市区</span></div>\n              </li>\n              <li><span class=\"tit\">Day7</span>\n                <div><span>台北车站</span><span>九份</span><span>圆山大饭店</span></div>\n              </li>\n              <li><span class=\"tit\">Day8</span>\n                <div><span>台北故宫</span><span>淡水</span><span>宁夏夜市</span></div>\n              </li>\n              <li><span class=\"tit\">Day9</span>\n                <div><span>台北101大楼</span><span>诚品书店</span><span>微热山丘</span><span>师大夜市</span></div>\n              </li>\n              <li><span class=\"tit\">Day10</span>\n                <div><span>台北车站</span><span>桃园机场</span></div>\n              </li>\n              <li><span class=\"tit\">Day12</span>\n                <div><span>台北车站台北车站台北车站台北车站</span><span>桃园机场</span><span>台北车站</span><span>桃园机场</span><span>台北车站</span><span>桃园机场</span></div>\n              </li>\n              <li><span class=\"tit\">Day12</span>\n                <div><span>台北车站台北车站台北车站台北车站</span><span>桃园机场</span><span>台北车站</span><span>桃园机场</span><span>台北车站</span><span>桃园机场</span></div>\n              </li>\n            </ul>\n          </div>\n          <span class=\"bgdtleft\"></span> <span class=\"s_dtplane\"></span> <a href=\"javascript:void(0);\" class=\"s_dtpre\"></a> <a href=\"javascript:void(0);\" class=\"s_dtmore\">更多</a>\n        </div>\n      </div>",
+			"s_dtmore",
+			"person",
+			"6300",
+			"桃园机场",
+			"很抱歉",
+			"backtop",
+			"trans",
+			"t'ran's",
+			"background:url(",
+			"t-yuan3",
+			"images/",
+			"20",
+			"s_adults",
+			";\n",
+			"s_city",
+			"c_adultsprice",
+			"flagcity",
+			"flagC",
+			"s_adults",
+			"s_adults\nid=\"page",
+			"s_adults\n到台日期",
+			"s_adults\nt-dzxc-con",
+			"s_adults\nWmember",
+			"Wmember",
+			"t-xyb",
 			".js",
-			"j'qu",
-			"backend/resources/",
-			"\"/resources/",
-			"src=\"img",
-			".js",
-			"swf",
-			"TEMPLATE_CONTEXT_PROCESSORS",
-			"src=\"img",
-			"STATIC_URL",
-			"PROJECT_DIR",
-			"content_type",
-			"TEMPLATE",
-			"import",
-			"ALLOWED_HOSTS",
-			"url",
+			".j's",
+			".css",
+			"当前行程内酒店房间数量不足，请更改或重新选择",
+			"margin-top:30px;",
 			"divsel",
 			"oauthclient",
 			"AppId",
@@ -312,12 +371,10 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
-			"backend/",
-			"\"{{STATIC_URL}}backend/resources/",
-			"src=\"{{STATIC_URL}}img",
+			"liuwan",
 			"行程",
 			"route",
 			"行程",
@@ -328,196 +385,28 @@
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": true
+		"wrap": false
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "cms/backend.py",
+					"file": "README.md",
 					"settings":
 					{
-						"buffer_size": 2031,
+						"buffer_size": 3544,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1282,
-								1282
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"devel": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"origin_encoding": "ASCII",
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": "load-save",
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 399.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "chshtvp/templates/backend/login.html",
-					"settings":
-					{
-						"buffer_size": 8410,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6260,
-								6260
+								748,
+								748
 							]
 						],
 						"settings":
@@ -662,175 +551,9 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 369.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "cms/urls.py",
-					"settings":
-					{
-						"buffer_size": 433,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								433,
-								433
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"devel": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"origin_encoding": "UTF-8",
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": "load-save",
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -839,19 +562,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "cms/forms.py",
+					"buffer": 1,
+					"file": "static/js/binary.js",
 					"settings":
 					{
-						"buffer_size": 1433,
+						"buffer_size": 573,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								926,
-								926
+								459,
+								459
 							]
 						],
 						"settings":
@@ -996,10 +719,12 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 171.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1060,6 +785,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"urlrul",
+				"liuwan/vendor/yiisoft/yii2/web/UrlRule.php"
+			],
+			[
+				"urlrule.php",
+				"liuwan/vendor/yiisoft/yii2/rest/UrlRule.php"
+			],
+			[
+				"site",
+				"6wan_UI/sitemap.html"
+			],
 			[
 				"",
 				"distribution/application/controllers/goods.php"

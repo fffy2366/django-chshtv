@@ -11,7 +11,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'chshtvp.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    #url(r'^admin/', include(admin.site.urls)),
+    url(r'^admin/', include(admin.site.urls)),
     #backend
     url(r'^backstage/', include('cms.urls')),
     #home
@@ -20,3 +20,7 @@ urlpatterns = patterns('',
     url(r'^captcha/', include('captcha.urls')),
     (r'^accounts/login/$', 'django.contrib.auth.views.login',{'template_name': 'backstage/login.html'}),
 ) + static(settings.STATIC_URL)
+
+urlpatterns += patterns('lession.views', 
+    (r'^book/(?p<year>\d))
+)
