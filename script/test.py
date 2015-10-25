@@ -9,3 +9,5 @@ def test(a):
         print 4
 
 test(4)
+
+print range(3 - 1)
