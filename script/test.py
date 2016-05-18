@@ -11,3 +11,10 @@ def test(a):
 test(4)
 
 print range(3 - 1)
+
+
+text = "abc"
+
+text = "%-20s " % "d"+text
+
+print(text)
